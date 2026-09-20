@@ -6,7 +6,7 @@ An ESP32-based wireless-security research project for studying IEEE 802.11 Wi-Fi
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 **This project is strictly for educational purposes and authorized testing.**
 
@@ -73,7 +73,7 @@ Download Arduino IDE from the official Arduino website:
 
 ---
 
-## 🍎 macOS
+## macOS
 
 Download Arduino IDE from:
 
@@ -90,7 +90,7 @@ Arduino provides versions for both Intel and Apple Silicon Macs.
 
 ---
 
-# 🔧 ESP32 Arduino IDE Configuration
+#  ESP32 Arduino IDE Configuration
 
 ## Step 1 — Open Preferences
 
@@ -120,7 +120,7 @@ Click **OK**.
 
 ---
 
-# 📦 Step 2 — Install ESP32 Board Package
+#  Step 2 — Install ESP32 Board Package
 
 Go to:
 
@@ -146,7 +146,7 @@ esp32 by Espressif Systems
 
 ---
 
-# 📝 Step 3 — Create a New Sketch
+#  Step 3 — Create a New Sketch
 
 Open:
 
@@ -168,7 +168,7 @@ Copy the code into the Arduino sketch.
 
 ---
 
-# 🔌 Step 4 — Connect the ESP32
+#  Step 4 — Connect the ESP32
 
 Connect your ESP32 to your computer using a **USB data cable**.
 
@@ -176,7 +176,7 @@ Make sure the board is properly connected.
 
 ---
 
-# 🧩 Step 5 — Select Your ESP32 Board
+#  Step 5 — Select Your ESP32 Board
 
 Go to:
 
@@ -203,7 +203,7 @@ ESP32-C3 Dev Module
 
 ---
 
-# 🔌 Step 6 — Select the ESP32 Port
+#  Step 6 — Select the ESP32 Port
 
 Go to:
 
@@ -250,7 +250,7 @@ COM5
 
 ---
 
-# 📤 Step 7 — Upload the Program
+#  Step 7 — Upload the Program
 
 Make sure:
 
@@ -273,7 +273,7 @@ If your board requires it, press the **BOOT** button during the upload process.
 
 ---
 
-# 🖥️ Step 8 — Open Serial Monitor
+#  Step 8 — Open Serial Monitor
 
 After uploading:
 
@@ -299,7 +299,7 @@ Therefore the Serial Monitor must also use **115200 baud**.
 
 ---
 
-# ⚙️ Configuration
+#  Configuration
 
 The main settings are located near the beginning of the Arduino program.
 
@@ -317,7 +317,7 @@ const uint8_t REPEATS = 10;
 
 ---
 
-# 📁 Project Files
+#  Project Files
 
 ```text
 ESP32-WiFi-Beacon-Research
